@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://menquan754.github.io/sitemap.xml
