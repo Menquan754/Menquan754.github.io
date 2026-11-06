@@ -1678,6 +1678,11 @@ textarea {
   transform: none;
 }
 
+.js [data-reveal].is-above {
+  transition-duration: 0.4s;
+  transition-delay: 0s;
+}
+
 /* ---------- 17. Responsive ---------- */
 @media (min-width: 900px) {
   body {

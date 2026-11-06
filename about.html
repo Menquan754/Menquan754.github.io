@@ -18,6 +18,9 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <script>document.documentElement.classList.add('js');</script>
+  <link rel="preload" as="image" href="assets/avatar.jpg" fetchpriority="high">
+  <link rel="preconnect" href="https://github.com" crossorigin>
+  <link rel="dns-prefetch" href="https://github.com">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="top">
@@ -109,7 +112,7 @@
 
           <aside class="profile-card" data-reveal style="--i: 1" aria-label="个人名片">
             <div class="profile-photo">
-              <img src="assets/avatar.jpg" alt="苏天翼的证件照" width="600" height="840">
+              <img src="assets/avatar.jpg" alt="苏天翼的证件照" width="600" height="840" fetchpriority="high" decoding="async">
             </div>
             <h3>苏天翼</h3>
             <p>Software Engineering · Sophomore</p>
